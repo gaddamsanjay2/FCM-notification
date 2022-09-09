@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img"
+    tools:context=".SendNotificationEveryOne">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="#DDE3E2">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Notification to All"
+        android:background="@color/teal_200"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="title"
+        android:layout_margin="10dp"
+        android:id="@+id/title_edt"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="body"
+        android:layout_margin="10dp"
+        android:id="@+id/body_edt"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:text="notidication to ALl"
+        android:onClick="sendAll"/>
+</LinearLayout>
+
+
+</LinearLayout>
